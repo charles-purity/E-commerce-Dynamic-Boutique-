@@ -22,7 +22,7 @@ body{
 }
 
 #nav-bar ul li a {
-    color: 	 #e60000;
+    color: 	  #4d0000;
 }
 
 /*------------------Slider---------------------*/
@@ -48,12 +48,14 @@ body{
 #gallery {
     padding-top: 50px;
     padding-bottom: 50px;
+    background: #efefef;
 
 }
 
-.container h4 {
+#gallery .container h4 {
     background-color:  #cc0000;
     color: #ffff;
+    padding-left: 10px;
 }
 
 .img-box {
@@ -63,3 +65,192 @@ body{
 #gallery p {
     color: #990000;
 }
+
+/*---------------explore--------------------*/
+
+
+#explore-men{
+    padding-bottom: 50px;
+    /* padding-top: 50px; */
+    background: #efefef;
+} 
+
+.img-box {
+    cursor: pointer;
+}
+
+#explore-men p {
+    color: #990000;
+}
+
+#explore-women{
+
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    background: #efefef;
+}
+
+#explore-men .container h4 {
+    background-color:  #cc0000;
+    color: #ffff;
+    padding-left: 10px;
+
+}
+
+#explore-women .container h4 {
+    background-color:  #cc0000;
+    color: #ffff;
+    padding-left: 10px;
+
+}
+/*----------------product-detals--------------------*/
+
+.single-product {
+    margin-top: 20px;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+#product-details {
+
+    margin-bottom: 50px;
+    
+}
+
+.fa-indent {
+    color: #cc0000;
+}
+
+.fa-star {
+    color: #ffff00;
+}
+
+.single-product .col-md-6 {
+    padding-right: 50px;
+}
+
+.single-product h3 {
+    margin: 20px 0;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.single-product select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+
+input:focus {
+    outline: none;
+}
+
+/*------------------cart-items----------------------*/
+
+.cart-page {
+    margin: 80px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #cc0000;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 45px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+td a {
+    color: #ff523b;
+    
+}
+
+td img {
+    width: 80px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid #cc0000;
+    width: 100%;
+    max-width: 420px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+
+/* -----------------------------------account=page-------------------------------------- */
+
+#login-page {
+    padding: 50px 0;
+}
+
+
+.form-container {
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+@media only screen  and (max-width: 600px) {
+    .cart-info p {
+        display: none;
+    }
+}
+
+
