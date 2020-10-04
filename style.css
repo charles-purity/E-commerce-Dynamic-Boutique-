@@ -14,7 +14,7 @@ body{
 }
 
 .navbar-nav li {
-    padding: 0 10;
+    padding: 0 10px;
 
 }
 #nav-bar ul li a:hover {
@@ -24,6 +24,11 @@ body{
 #nav-bar ul li a {
     color: 	  #4d0000;
 }
+
+.fa-shopping-cart {
+    font-size: 20px;
+}
+
 
 /*------------------Slider---------------------*/
 
@@ -70,7 +75,7 @@ body{
 
 
 #explore-men{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     /* padding-top: 50px; */
     background: #efefef;
 } 
@@ -85,7 +90,7 @@ body{
 
 #explore-women{
 
-    padding-top: 50px;
+    padding-top: 30px;
     /* padding-bottom: 50px; */
     background: #efefef;
 }
@@ -103,6 +108,30 @@ body{
     padding-left: 10px;
 
 }
+
+#explore-women p {
+    color: #990000;
+}
+
+/* ---------------new arrivals---------------- */
+#new-arrivals .container h4 {
+
+    background-color: #cc0000;
+    color: #ffff;
+    padding-left: 10px;
+
+}
+
+#new-arrivals p {
+    color: #990000;
+}
+
+
+#new-arrivals {
+    padding-top: 50px;
+}
+
+
 /*----------------product-detals--------------------*/
 
 .single-product {
@@ -172,6 +201,15 @@ table {
     flex-wrap: wrap;
 }
 
+.cart-info a {
+    cursor: pointer;
+    background: #cc0000;
+    font-size: 14px;
+    padding: 2px;
+  
+
+}
+
 th {
     text-align: left;
     padding: 5px;
@@ -238,6 +276,226 @@ th:last-child {
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+
+.form-container span {
+    display: inline-block;
+    font-weight: bolder;
+    width: 100px;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+#login-page form .btn {
+    display: inline-block;
+    background: #990000;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 50px;
+    
+}
+
+form .btn:focus {
+    outline: none;
+}
+
+.form-container form {
+    max-width: 300px;
+    top: 130px;
+    padding: 0 20px;
+    position: absolute;
+    transition: 1s;
+}
+
+
+form input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border:  1px solid #ccc;
+}
+
+#LoginForm {
+    left: -300px;
+}
+#RegForm {
+    left: 0;
+}
+
+form a {
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.form-btn {
+    display: inline-block;
+}
+
+
+#Indicator {
+    width: 100px;
+    border: none;
+    background: #cc0000;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(50px);
+    transition: 1s;
+}
+
+
+/* ------------------about------------------- */
+
+#about {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/header1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+}
+
+#about .col-md-6 {
+    color: #efefef;
+}
+
+#about p {
+    text-align: justify;
+}
+
+#about h3::after {
+    content: '';
+    display: block;
+    background: #cc0000;
+    width: 80px;
+    height: 2px;
+}
+
+
+
+/*-------------------contact us--------------------------*/
+
+#contact {
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #555;
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder {
+    color: #999 !important;
+}
+
+.follow {
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+
+.fa-youtube {
+    color: red;
+    font-weight: bold;
+}
+
+.fa-google-plus {
+    color: green;
+
+}
+
+#contact h4::after {
+    content: '';
+    background: #cc0000;
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 5px auto 5px;
+}
+
+#contact h4 {
+    text-align: center;
+}
+
+
+/* ---------------------footer------------------------- */
+
+#footer {
+    background: #1a0000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer ul li a {
+    cursor: pointer;
+    
+}
+
+#footer p {
+    font-size: 9px;
+    
+}
+#footer .objective {
+    font-size: 12px !important;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+#footer .footer-logo {
+    text-align: center;
+    justify-content: center;
+}
+
+#footer h4 {
+    text-align: center;
+    color: #cc0000;
+    
+}
+
+#footer ul li {
+    text-align: center;
+    margin-right: 2px;
+    
+}
+
+#footer .contact-link {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#footer hr {
+    border: none;
+    background: #efefef;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+    color: #ccc !important;
+
 }
 
 
@@ -252,5 +510,3 @@ th:last-child {
         display: none;
     }
 }
-
-
